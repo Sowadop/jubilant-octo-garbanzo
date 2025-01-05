@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write .",
+    "audit": "npm audit --fix"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^18.18.0",
+    "axios": "^1.7.9",
+    "node-cache": "^5.1.2",
+    "path-to-regexp": "^8.2.0",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
